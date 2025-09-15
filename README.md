@@ -13,15 +13,14 @@
 7.	To reach a variable, enter the variable to be searched and the symbol table has been checked for the corresponding variable, the variable along with its address is displayed as a result.
 8.	Stop the program. 
 # PROGRAM
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-#include <stdlib.h>
-
-#define MAX_EXPRESSION_SIZE 100
-
-int main() {
-	int i = 0, j = 0, x = 0, n, flag = 0;
+    #include <stdio.h>
+    #include <ctype.h>
+    #include <string.h>
+    #include <stdlib.h>
+    #define MAX_EXPRESSION_SIZE 100
+    int main() 
+    {
+    int i = 0, j = 0, x = 0, n, flag = 0;
 	int k;
 	char b[MAX_EXPRESSION_SIZE], d[15], c, srch;
 
